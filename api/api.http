@@ -1,0 +1,20 @@
+# Write an alert
+POST https://rescue-mate.sw-talk.bengineer.dev/api/alerts
+Content-Type: application/json
+
+{
+  "title": "Seagull Uprising",
+  "severity": "critical"
+}
+
+###
+
+# Get all alerts
+GET https://rescue-mate.sw-talk.bengineer.dev/api/alerts
+
+
+###
+
+# Reset data
+POST https://rescue-mate.sw-talk.bengineer.dev/api/reset
+Content-Type: application/json
