@@ -3,8 +3,8 @@ POST https://rescue-mate.sw-talk.bengineer.dev/api/alerts
 Content-Type: application/json
 
 {
-  "title": "Seagull Uprising",
-  "severity": "critical"
+  "title": "Heatwave",
+  "severity": "info"
 }
 
 ###
